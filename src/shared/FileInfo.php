@@ -70,7 +70,7 @@ class FileInfo extends \SplFileInfo {
      *
      * @throws FileInfoException
      */
-    public function getFileInfo($class_name = null): void {
+    public function getFileInfo(?string $class = null): void {
         throw new FileInfoException('getFileInfo not implemented', FileInfoException::NotImplemented);
     }
 
